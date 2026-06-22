@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Romeo's Auto Spa — Mobile Detailing, San Diego CA</title>
+<meta name="description" content="Mobile auto detailing in San Diego. Paint correction, ceramic coating, headlight restoration, full interior/exterior details — Romeo comes to you.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark">◐</span>
+      <span class="logo-text">ROMEO'S<span>AUTO SPA</span></span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="#services">Services</a>
+      <a href="#compare">Results</a>
+      <a href="#process">How it works</a>
+      <a href="#about">About</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="tel:+16198768803" class="header-cta">
+      <span class="cta-label">Call or text</span>
+      <span class="cta-number">(619) 876-8803</span>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>MOBILE DETAILING</span><span>•</span><span>PAINT CORRECTION</span><span>•</span>
+    <span>CERAMIC COATING</span><span>•</span><span>HEADLIGHT RESTORATION</span><span>•</span>
+    <span>SAN DIEGO COUNTY</span><span>•</span><span>WE COME TO YOU</span><span>•</span>
+    <span>MOBILE DETAILING</span><span>•</span><span>PAINT CORRECTION</span><span>•</span>
+    <span>CERAMIC COATING</span><span>•</span><span>HEADLIGHT RESTORATION</span><span>•</span>
+    <span>SAN DIEGO COUNTY</span><span>•</span><span>WE COME TO YOU</span><span>•</span>
+  </div>
+</div>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="shine-sweep" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-top">
+        <p class="eyebrow">Mobile · San Diego County · 5.0★ rated</p>
+        <h1>Your driveway<br>is the shop now.</h1>
+        <p class="hero-sub">Full details, paint correction, and ceramic coating — done at your home or office. Drag the slider below. That's not a stock photo, that's the actual difference.</p>
+      </div>
+
+      <div class="compare-wrap" id="compare">
+        <div class="compare-stage">
+          <div class="compare-img compare-after">
+            <span class="compare-tag tag-after">After</span>
+          </div>
+          <div class="compare-img compare-before" id="compareBefore">
+            <span class="compare-tag tag-before">Before</span>
+          </div>
+          <div class="compare-divider" id="compareDivider"></div>
+        </div>
+        <input type="range" class="compare-range" id="compareRange" min="0" max="100" value="50" aria-label="Drag to compare before and after paint correction">
+      </div>
+
+      <div class="hero-bottom">
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Book a detail</a>
+          <a href="tel:+16198768803" class="btn btn-ghost">(619) 876-8803</a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-item"><span class="trust-num">5.0★</span><span class="trust-label">Google rating</span></div>
+          <div class="trust-item"><span class="trust-num">100%</span><span class="trust-label">mobile service</span></div>
+          <div class="trust-item"><span class="trust-num">1:1</span><span class="trust-label">Romeo on every car</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stat-band">
+    <div class="stat-band-inner">
+      <div class="stat-block"><span class="stat-num">200+</span><span class="stat-label">vehicles detailed</span></div>
+      <div class="stat-block"><span class="stat-num">5.0</span><span class="stat-label">average rating</span></div>
+      <div class="stat-block"><span class="stat-num">0mi</span><span class="stat-label">you have to drive</span></div>
+      <div class="stat-block"><span class="stat-num">2-4hr</span><span class="stat-label">typical detail time</span></div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="section-head">
+      <p class="section-eyebrow">What we do</p>
+      <h2>Four services. One guy. Zero shops.</h2>
+    </div>
+    <div class="service-grid">
+      <article class="service-tile tile-1">
+        <span class="tile-num">01</span>
+        <h3>Full Detail</h3>
+        <p>Interior and exterior, top to bottom. Wash, decontaminate, vacuum, condition — a finish that actually holds up past the driveway.</p>
+      </article>
+      <article class="service-tile tile-2">
+        <span class="tile-num">02</span>
+        <h3>Paint Correction</h3>
+        <p>Swirl marks, light scratches, faded clear coat — corrected by hand and machine. Not masked with filler wax.</p>
+      </article>
+      <article class="service-tile tile-3">
+        <span class="tile-num">03</span>
+        <h3>Ceramic Coating</h3>
+        <p>Multi-year protection that keeps the shine and makes every wash after this one faster and easier.</p>
+      </article>
+      <article class="service-tile tile-4">
+        <span class="tile-num">04</span>
+        <h3>Headlight Restoration</h3>
+        <p>Cloudy, yellowed housings brought back to clear. Better looks, better visibility at night.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="process" id="process">
+    <div class="section-head">
+      <p class="section-eyebrow">How a booking goes</p>
+      <h2>Four steps. Zero trips to a shop.</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-step">
+        <span class="timeline-num">01</span>
+        <h3>Text your vehicle</h3>
+        <p>Make, model, what it needs. Most quotes come back same day.</p>
+      </div>
+      <div class="timeline-step">
+        <span class="timeline-num">02</span>
+        <h3>Pick a time</h3>
+        <p>Home, office, gym lot — wherever it's parked is where the work happens.</p>
+      </div>
+      <div class="timeline-step">
+        <span class="timeline-num">03</span>
+        <h3>Romeo shows up</h3>
+        <p>2-4 hours depending on scope. No drop-off, no waiting room.</p>
+      </div>
+      <div class="timeline-step">
+        <span class="timeline-num">04</span>
+        <h3>Walkthrough first</h3>
+        <p>You check it before any money changes hands.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-grid">
+      <div class="about-quote">
+        <p class="quote-mark">"</p>
+        <p class="quote-text">Every car is detailed by me, personally. No rotating staff, no "the new guy did it."</p>
+        <p class="quote-attr">— Romeo, owner-operator</p>
+      </div>
+      <div class="about-copy">
+        <p class="section-eyebrow">Who's showing up</p>
+        <h2>One detailer.<br>One van.<br>Every car, personally.</h2>
+        <div class="about-badges">
+          <div class="badge"><span class="badge-label">Coverage</span><span class="badge-val">All of San Diego</span></div>
+          <div class="badge"><span class="badge-label">Rating</span><span class="badge-val">5.0 · 77 reviews</span></div>
+          <div class="badge"><span class="badge-label">Booking</span><span class="badge-val">Text or call direct</span></div>
+        </div>
+        <div class="fleet-tags">
+          <span>Daily drivers</span><span>Classics</span><span>Trucks &amp; SUVs</span>
+          <span>EVs</span><span>Wrapped vehicles</span><span>Pre-sale prep</span>
+          <span>Exotics</span><span>Fleet vehicles</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews" id="reviews">
+    <div class="section-head">
+      <p class="section-eyebrow">From the driveway</p>
+      <h2>What people say once the cover comes off.</h2>
+    </div>
+    <div class="review-grid">
+      <article class="review-card">
+        <span class="review-mark">"</span>
+        <p>Came to my office and detailed the car while I was in meetings. Picked up my keys at lunch and it looked brand new.</p>
+        <span class="review-name">Marcus D. — Hillcrest</span>
+      </article>
+      <article class="review-card">
+        <span class="review-mark">"</span>
+        <p>Had swirl marks all over the hood from a bad shop job. Romeo polished it out completely — looks better than when I bought it.</p>
+        <span class="review-name">Lena V. — North Park</span>
+      </article>
+      <article class="review-card">
+        <span class="review-mark">"</span>
+        <p>He's careful with the wrap on my car, which not every detailer takes seriously. Never had an issue, always on time.</p>
+        <span class="review-name">Theo K. — Pacific Beach</span>
+      </article>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-grid">
+      <div class="contact-copy">
+        <p class="section-eyebrow">Get in touch</p>
+        <h2>Send your vehicle info.<br>Get a time same day.</h2>
+        <div class="contact-detail">
+          <span class="contact-label">Call or text</span>
+          <a href="tel:+16198768803">(619) 876-8803</a>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-label">Email</span>
+          <a href="mailto:romeo@romeosautospa.com">romeo@romeosautospa.com</a>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-label">Hours</span>
+          <span>Mon–Fri, 7am–7pm · Weekends by request</span>
+        </div>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <label>Name<input type="text" name="name" required></label>
+        <label>Phone<input type="tel" name="phone" required></label>
+        <label>Vehicle &amp; what it needs<textarea name="message" rows="4" required></textarea></label>
+        <button type="submit" class="btn btn-primary">Send it</button>
+        <p class="form-note" id="form-note"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>© 2026 Romeo's Auto Spa · Mobile detailing, San Diego CA</span>
+    <span class="footer-demo">This is a sample site built to show what's possible — not a live business page.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
